@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="TallyPay API Gateway Automation Suite">
+    <test name="TallyPay API Gateway Automation Suite">
+
+        <classes>
+            <class name="com.example.attendanceautomationspring.testClasses.TestCaseForGetToken"/>
+            <class name="com.example.attendanceautomationspring.testClasses.TestClassForGetCookie"/>
+            <class name="com.example.attendanceautomationspring.testClasses.TestClassForCheckInOut"/>
+
+        </classes>
+    </test>
+</suite>
